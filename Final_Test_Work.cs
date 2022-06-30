@@ -64,9 +64,6 @@ string[] MainExample(string[] inputArray) // метод, который пров
     return outputArray;
 }
 
-
-// записываем кейс неработоспособности: если задать 2 элемента массива, то получаем: Изначальный массив: 'ыыыы' 'ы'  ->  Результирующий массив: ''
-
 string Print(string[] array) // метод, который печатает массив
 {
     string res = String.Empty;
